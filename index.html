@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#101827">
+<meta name="description" content="وب‌سایت شخصی مهدی؛ معرفی، مهارت‌ها و کانال یوتیوب">
+<title>مهدی | وب‌سایت شخصی</title>
+<style>
+:root{--bg:#0b1220;--panel:#111c2e;--panel2:#16243a;--text:#eef4ff;--muted:#a8b5ca;--accent:#55e0b5;--accent2:#7c9cff;--line:rgba(255,255,255,.1);--radius:22px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 85% 0%,#1a3150 0,transparent 38%),var(--bg);color:var(--text);font-family:Tahoma,"Segoe UI",Arial,sans-serif;line-height:1.9}a{color:inherit;text-decoration:none}.wrap{width:min(1080px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(11,18,32,.86);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:70px}.brand{font-weight:900;font-size:1.12rem;letter-spacing:-.4px}.brand span{color:var(--accent)}nav{display:flex;gap:20px;align-items:center;font-size:.92rem;color:var(--muted)}nav a:hover{color:var(--accent)}.menu{display:none;border:1px solid var(--line);background:var(--panel);color:var(--text);border-radius:12px;padding:8px 12px;font-size:1rem}
+.hero{padding:78px 0 58px;display:grid;grid-template-columns:1.4fr .8fr;gap:34px;align-items:center}.eyebrow{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(85,224,181,.3);background:rgba(85,224,181,.08);color:var(--accent);border-radius:999px;padding:5px 13px;font-size:.85rem}.dot{width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 14px var(--accent)}h1{font-size:clamp(2.2rem,5vw,4rem);line-height:1.35;letter-spacing:-1.5px;margin:18px 0 12px}h1 strong{color:var(--accent)}.intro{color:var(--muted);font-size:1.08rem;max-width:620px;margin:0 0 25px}.actions{display:flex;flex-wrap:wrap;gap:12px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:14px;padding:12px 18px;font-weight:700;border:1px solid var(--line);transition:.2s}.btn:hover{transform:translateY(-2px)}.primary{background:var(--accent);color:#06231b;border-color:transparent}.secondary{background:rgba(255,255,255,.04)}
+.profile-card{background:linear-gradient(145deg,rgba(124,156,255,.16),rgba(85,224,181,.08));border:1px solid var(--line);border-radius:30px;padding:28px;min-height:300px;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;position:relative}.profile-card:before{content:"";position:absolute;width:210px;height:210px;border-radius:50%;border:1px solid rgba(85,224,181,.24);left:-70px;top:-75px;box-shadow:0 0 0 22px rgba(85,224,181,.035),0 0 0 45px rgba(85,224,181,.025)}.monogram{width:88px;height:88px;border-radius:25px;display:grid;place-items:center;background:linear-gradient(135deg,var(--accent),#9ff6dd);color:#06231b;font-size:2.2rem;font-weight:900;box-shadow:0 14px 45px #55e0b52a}.profile-card h2{font-size:1.45rem;margin:20px 0 3px}.profile-card p{margin:0;color:var(--muted)}.mini-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}.tag{font-size:.78rem;padding:5px 10px;border:1px solid var(--line);border-radius:999px;color:#cdd8e9;background:#ffffff06}
+section{padding:42px 0;scroll-margin-top:82px}.section-head{margin-bottom:22px}.section-head .kicker{color:var(--accent);font-size:.85rem;font-weight:800}.section-head h2{font-size:clamp(1.5rem,3vw,2.15rem);margin:3px 0}.section-head p{color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{border:1px solid var(--line);background:linear-gradient(145deg,var(--panel),rgba(17,28,46,.72));border-radius:var(--radius);padding:22px}.card-icon{width:48px;height:48px;border-radius:15px;background:rgba(85,224,181,.1);display:grid;place-items:center;font-size:1.4rem;margin-bottom:13px}.card h3{margin:0 0 7px;font-size:1.08rem}.card p{margin:0;color:var(--muted);font-size:.93rem}.skills{display:flex;flex-wrap:wrap;gap:10px}.skill{border:1px solid var(--line);background:var(--panel);padding:9px 13px;border-radius:12px;color:#dce7f7}
+.youtube{display:grid;grid-template-columns:1fr auto;align-items:center;gap:22px;background:linear-gradient(110deg,#182640,#111b2c);border:1px solid var(--line);border-radius:26px;padding:26px}.youtube .yt-icon{width:64px;height:64px;display:grid;place-items:center;background:#ff3030;border-radius:19px;font-size:1.8rem}.youtube-top{display:flex;gap:16px;align-items:center}.youtube h3{margin:0 0 4px}.youtube p{margin:0;color:var(--muted);font-size:.92rem}.note{font-size:.83rem;color:var(--muted);margin-top:12px}.contact-box{display:flex;align-items:center;justify-content:space-between;gap:20px;border:1px solid rgba(85,224,181,.24);background:rgba(85,224,181,.055);padding:25px;border-radius:24px}.contact-box h3{margin:0 0 5px}.contact-box p{margin:0;color:var(--muted)}
+footer{border-top:1px solid var(--line);margin-top:35px;padding:24px 0;color:var(--muted);font-size:.85rem}.footer-inner{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:48px}.profile-card{min-height:245px}.grid{grid-template-columns:1fr}.nav{min-height:62px}nav{display:none;position:absolute;top:62px;right:4%;left:4%;padding:14px;background:var(--panel);border:1px solid var(--line);border-radius:16px;flex-direction:column;align-items:stretch;gap:4px}nav.open{display:flex}nav a{padding:8px}.menu{display:block}.youtube{grid-template-columns:1fr}.youtube .btn{width:100%}.contact-box{align-items:flex-start;flex-direction:column}.actions .btn{flex:1}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home">MEHDI <span>|</span> وب‌سایت شخصی</a>
+    <button class="menu" id="menuBtn" aria-label="باز کردن منو" aria-expanded="false">☰ منو</button>
+    <nav id="navLinks" aria-label="منوی اصلی">
+      <a href="#about">درباره من</a><a href="#skills">مهارت‌ها</a><a href="#youtube">یوتیوب من</a><a href="#contact">ارتباط</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+  <section class="hero" id="home">
+    <div>
+      <span class="eyebrow"><span class="dot"></span> خوش آمدی به وب‌سایت من</span>
+      <h1>سلام، من <strong>مهدی</strong> هستم.</h1>
+      <p class="intro">اینجا گوشه‌ای از مسیر یادگیری، علاقه‌ها و کارهای من را می‌بینی. دوست دارم مهارت‌های تازه یاد بگیرم، با فناوری آشنا شوم و تجربه‌هایم را با دیگران به اشتراک بگذارم.</p>
+      <div class="actions">
+        <a class="btn primary" href="#about">بیشتر درباره من ←</a>
+        <a class="btn secondary" href="#youtube">کانال یوتیوب من ▶</a>
+      </div>
+    </div>
+    <aside class="profile-card" aria-label="معرفی کوتاه">
+      <div class="monogram">م</div>
+      <div>
+        <h2>مهدی احمدی</h2>
+        <p>یادگیرنده، سازنده و علاقه‌مند به فناوری</p>
+        <div class="mini-tags"><span class="tag">یادگیری</span><span class="tag">فناوری</span><span class="tag">تولید محتوا</span></div>
+      </div>
+    </aside>
+  </section>
+
+  <section id="about">
+    <div class="section-head"><span class="kicker">درباره من</span><h2>هر روز یک قدم جلوتر</h2><p>این بخش را می‌توانی هر وقت خواستی با اطلاعات دقیق‌تر خودت تغییر بدهی.</p></div>
+    <div class="card">
+      <p>من مهدی هستم و به یادگیری چیزهای جدید، کار با گوشی و ابزارهای دیجیتال و ساخت محتوای آنلاین علاقه دارم. هدفم این است که قدم‌به‌قدم مهارت‌هایم را بیشتر کنم، پروژه‌های واقعی بسازم و آموخته‌هایم را با دیگران به اشتراک بگذارم.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="section-head"><span class="kicker">مهارت‌ها و علاقه‌ها</span><h2>چیزهایی که دنبال می‌کنم</h2><p>مهارت‌ها را با توانایی‌های واقعی خودت هماهنگ کن؛ لازم نیست همه را از همین حالا بلد باشی.</p></div>
+    <div class="grid">
+      <article class="card"><div class="card-icon">📱</div><h3>فناوری و گوشی</h3><p>آشنایی با گوشی‌های هوشمند، برنامه‌ها و راه‌حل‌های کاربردی.</p></article>
+      <article class="card"><div class="card-icon">🎬</div><h3>تولید محتوا</h3><p>ایده‌پردازی برای ویدیو، ساخت محتوای کوتاه و یادگیری ابزارهای ویرایش.</p></article>
+      <article class="card"><div class="card-icon">💡</div><h3>یادگیری مهارت‌های جدید</h3><p>تمرین، ساخت پروژه‌های کوچک و پیشرفت مرحله‌به‌مرحله.</p></article>
+    </div>
+    <div class="skills" style="margin-top:17px"><span class="skill">یادگیری دیجیتال</span><span class="skill">ایده‌پردازی</span><span class="skill">تولید ویدیو</span><span class="skill">کار با موبایل</span></div>
+  </section>
+
+  <section id="youtube">
+    <div class="section-head"><span class="kicker">ویدیوها و محتوا</span><h2>کانال یوتیوب من</h2><p>ویدیوها و آموزش‌هایم را از این بخش دنبال کن.</p></div>
+    <div class="youtube">
+      <div class="youtube-top"><div class="yt-icon">▶</div><div><h3>کانال یوتیوب مهدی</h3><p>ویدیوهای من، آموزش‌ها و ایده‌های تازه</p></div></div>
+      <a class="btn primary" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">رفتن به یوتیوب ↗</a>
+    </div>
+    <p class="note">نکته: دکمه فعلاً به صفحه اصلی یوتیوب می‌رود. برای وصل شدن به کانال خودت، لینک کانالت را جایگزین لینک فعلی کن.</p>
+  </section>
+
+  <section id="contact">
+    <div class="section-head"><span class="kicker">ارتباط</span><h2>در تماس باشیم</h2><p>می‌توانی بعداً ایمیل، لینک شبکه اجتماعی یا راه ارتباطی دلخواهت را اضافه کنی.</p></div>
+    <div class="contact-box"><div><h3>از بازدیدت ممنونم 🌱</h3><p>این سایت شروع مسیر آنلاین من است و به مرور کامل‌تر می‌شود.</p></div><a class="btn secondary" href="#home">بازگشت به بالا ↑</a></div>
+  </section>
+</main>
+<footer><div class="wrap footer-inner"><span>© <span id="year"></span> مهدی احمدی — همه حقوق محفوظ است.</span><span>ساخته‌شده با ❤️ و یادگیری</span></div></footer>
+<script>
+const menuBtn=document.getElementById('menuBtn');
+const navLinks=document.getElementById('navLinks');
+menuBtn.addEventListener('click',()=>{const opened=navLinks.classList.toggle('open');menuBtn.setAttribute('aria-expanded',String(opened));});
+navLinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{navLinks.classList.remove('open');menuBtn.setAttribute('aria-expanded','false');}));
+document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
